@@ -232,8 +232,7 @@ const AddHotelForm = ({ hotel }: addHotelFormProps) => {
       })
     }
 
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
+    
     console.log(values)
   }
 
@@ -720,7 +719,7 @@ const AddHotelForm = ({ hotel }: addHotelFormProps) => {
                   </FormDescription>
                   <FormControl>
                     <Textarea
-                      placeholder="Beach hotel is parked with many amenties"
+                      placeholder="Beach hotel is parked with many amenties today"
                       {...field}
                     />
                   </FormControl>
