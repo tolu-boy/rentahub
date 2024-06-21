@@ -223,6 +223,12 @@ const AddHotelForm = ({ hotel }: addHotelFormProps) => {
 
         router.push(`/hotel/${res.data.id}`)
         setIsLoading(false)
+      }).catch((e)=>{
+        console.log("error with HOTEL POST request", e);
+        
+        setIsLoading(false)
+        
+
       })
     }
 
